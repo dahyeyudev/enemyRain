@@ -1,0 +1,60 @@
+#bg {
+  width: 800px;
+  height: 600px;
+  position: relative;
+  background: url('images/bg.png') no-repeat 0 0;
+  margin: 0px auto;
+}
+
+/*      
+        width: 800px;
+        height: 600px;
+        margin: 0px auto;
+        background-position: center top;
+      } */
+
+/* #bg .hero {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+} */
+/* .front .left .right {
+  background: url(/images/hero.png) no-repeat;
+} */
+/* .front {
+  width: 50px;
+  height: 54px;
+}
+.left .right {
+  width: 22px;
+} */
+.hero {
+  background-image: url('./images/hero.png');
+  width: 34px;
+  height: 54px;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+}
+.enemy {
+  background-image: url('./images/enemy.png');
+  width: 42px;
+  height: 54px;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+}
+/*
+hero
+width: 50px
+height: 54px
+width: 22px
+
+
+에너미는 전체 87
+
+가만히 있으면 
+
+.left
+
+*/
